@@ -1,0 +1,100 @@
+.TH MANAGEMENTSCRIPT 1 "June 2024" "Version 1.0" "Script for managing packages/programs and services"
+.SH NAME
+managementScript \- tool for managing packages, programs, and services
+.SH SYNOPSIS
+.B managementScript
+.RI [ options ]
+.SH DESCRIPTION
+\fBmanagementScript\fP is a tool for managing packages, programs, and services on Linux systems. It allows browsing, managing, and updating packages and services. The script provides an interactive menu that facilitates various administrative operations. Upon completion, it creates a log file script.log to record all actions taken by the script. Temporary files are also created in the /var/tmp folder during script execution, which are removed upon script termination.
+.LP
+
+Required tools:
+.TP
+.B Zenity
+Tool for creating graphical dialog windows in the GNOME environment. It allows creating simple graphical interfaces (requires the GNOME graphical environment).
+
+.TP
+.B Dialog
+Tool for creating interactive dialog windows in the terminal. It enables the creation of interactive menus and dialog windows in a text-based environment.
+
+.TP
+.B Systemctl
+Tool for managing system services. It allows starting, stopping, and monitoring system services.
+
+.TP
+.B Dpkg
+Tool for managing packages in Debian-based systems. It allows installation, removal, and management of software packages.
+
+.TP
+.B Apt-get
+Tool for installing, updating, and managing software packages in Debian-based systems. It allows installing new packages, updating existing ones, and removing unnecessary packages.
+
+.TP
+.B Stat
+Tool for displaying file information.
+
+.TP
+.B Awk
+Programming language for text processing and analysis.
+
+.TP
+.B Less
+Tool for browsing text files in a search-oriented manner.
+
+.SH OPTIONS
+.TP
+.B \-a
+Directly goes to the application menu.
+.TP
+.B \-u
+Directly goes to the services menu.
+.TP
+.B \-v
+Displays the script version.
+.TP
+.B \-h
+Displays usage help for the script.
+
+.SH MENU COMMANDS
+.TP
+.B Display a list of installed packages
+Displays a list of all installed packages or allows searching for a specific package.
+.TP
+.B Display a list of utility programs
+Displays a list of installed utility programs.
+.TP
+.B Find inactive programs
+Finds programs that have not been used for a specified number of days.
+.TP
+.B Check for updates availability for selected applications/programs
+Checks for available updates for selected packages.
+.TP
+.B Find inactive files
+Finds files that have not been accessed for a specified number of days.
+.TP
+.B Display a list of active services
+Displays a list of currently running services.
+.TP
+.B Start a new service
+Starts a new service.
+.TP
+.B Services started at system boot
+Displays and manages services started during system startup.
+
+.SH EXAMPLES
+.TP
+Run the script in application mode:
+.B managementScript \-a
+.TP
+Run the script in services mode:
+.B managementScript \-u
+
+.SH NOTE
+The script must be run as \fBroot\fP. It provides a wide range of administrative functions that facilitate Linux system management. However, caution is advised when using it, especially regarding package installation/removal and system service management, to avoid unintended system changes.
+
+.SH AUTHOR
+Arkadiusz Asmus
+
+.SH LICENSE
+MIT License
+Copyright (c) 2024, Arkadiusz Asmus
