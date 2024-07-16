@@ -1,3 +1,5 @@
+![obraz](https://github.com/user-attachments/assets/a3deed44-30c4-4214-b676-8ecee260ff1a)
+
 # System Administration Script
 
 This script is designed to assist with system administration tasks on Debian-based Linux systems. It provides interactive menus for managing applications and services, checking for updates, and performing maintenance tasks.
