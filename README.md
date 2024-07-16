@@ -1,4 +1,6 @@
 ![obraz](https://github.com/user-attachments/assets/a3deed44-30c4-4214-b676-8ecee260ff1a)
+![Zrzut ekranu z 2024-07-16 03-37-59](https://github.com/user-attachments/assets/9dc6ea40-d09a-4d2d-88c7-690770ec0fdb)
+
 
 # System Administration Script
 
