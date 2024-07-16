@@ -1,0 +1,16 @@
+# Script configuration
+
+# Log file name
+LOG_FILE=homescript.log
+
+# Dialog installation prompt
+INSTALL_DIALOG_MSG=The dialog program is not installed. Do you want to install it (yn) 
+
+# Zenity installation prompt
+INSTALL_ZENITY_MSG=The zenity program is not installed. Do you want to install it (yn) 
+
+# Systemctl installation prompt
+INSTALL_SYSTEMCTL_MSG=The systemctl program is not installed. Do you want to install it (yn) 
+
+# Default number of days for last_accessed_days function
+DAYS_TO_CHECK=15
