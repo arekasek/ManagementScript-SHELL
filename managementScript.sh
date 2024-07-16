@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #MIT License
-#Copyright (c) 2024, Arkadiusz Asmus 200797
+#Copyright (c) 2024, Arkadiusz Asmus
 #
 
 #CREATING FILE WITH LOGS
